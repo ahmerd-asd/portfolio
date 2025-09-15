@@ -12,7 +12,9 @@
   <header>
     <a href="header.html"><b><h1 class="wee">OMNIIERA <span>GROUP</span><h1></b></a>
 
-    <nav>
+    <button class="menu-toggle">☰</button>
+
+  <nav>
       <a href="owner.html">Owner</a>
       <a href="#about">About</a>
       <a href="#education">Education</a>
@@ -240,5 +242,15 @@ next.addEventListener('click', () => showSlide(1));
 setInterval(() => showSlide(1), 4000);
 </script>
 
+
+<script>
+const menuToggle = document.querySelector(".menu-toggle");
+const nav = document.querySelector("header nav");
+
+menuToggle.addEventListener("click", () => {
+  nav.classList.toggle("show");
+});
+</script>
 </body>
+
 </html>
