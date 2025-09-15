@@ -1,0 +1,150 @@
+    *{
+      margin: 0px;
+    }
+    body{
+      background-color: rgb(44, 44, 44);
+    }
+    
+    header {
+      color: #bbb;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: black;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    nav a {
+      color: rgb(255, 255, 255);
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+      color:#a0ce23;
+      transition: 0.5s;
+    }
+
+    main{
+        margin: 70px 40px;
+    }
+
+    .intro{
+        font-size: 50px;
+        
+    }
+
+    .field{
+        font-size: 30px;
+    }
+
+    .sup{
+        color: #bbb;
+    }
+
+    .imageee{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%; 
+        margin-right: 15%;
+    }
+
+    section{
+      background-color: #a3a3a3;
+      border-radius: 15px;
+      margin: 0px 70px 10px 70px;
+      padding: 20px;
+      font-family: Courier, sans-serif;
+      box-shadow: black 2px;
+    }
+
+    section p{
+      font-size: 17px;
+    }
+
+    section h2{
+      font-size: 30px;
+      margin-bottom: 20px;
+      color: rgb(18, 4, 51);
+      font-weight: bolder;
+    }
+
+    section h3{
+      font-size: 24px;
+      color: black;
+    }
+
+
+    #skills ul {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            list-style: none;
+        }
+
+        #skills li {
+            background-color: black;
+            padding: 0.75rem;
+            border-radius: 6px;
+            text-align: center;
+            font-weight: 500;
+            color: #bbb;
+        
+        }
+
+     footer {
+            background-color: black;
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            width: 100%;
+            margin-top: 100px;
+        }
+
+        footer .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 2rem;
+        }
+
+        footer .footer-section {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        footer .footer-section h3 {
+            color: #bbb;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        footer .footer-section p, footer .footer-section a {
+            color: white;
+            opacity: 0.9;
+            text-decoration: none;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        footer .footer-section a:hover {
+            color: red;
+        }
+
+        footer .footer-bottom {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
